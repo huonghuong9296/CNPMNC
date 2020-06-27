@@ -3,6 +3,7 @@
 <head>
 	<title>login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
 <div class="container">
@@ -12,13 +13,13 @@
 		</div>
 		<div class="main">
 			<form>
-				<input type="text" placeholder="Enter Username">
+				<input name="name" id="username" type="text" placeholder="Enter Username">
 				<br>
-				<input type="password" placeholder="Enter Password">
+				<input name="password" id="password" type="password" placeholder="Enter Password">
 				<br>
 				<a href="">Regist new account</a>
 				<br>
-				<button>Login</button>
+				<button onClick="Login()"">Login</button>
 			</form>
 		</div>
 	</div>
@@ -29,5 +30,6 @@
 		</span> -->
 	</div>
 </div>
+<script src="login.js"></script>
 </body>
 </html>
